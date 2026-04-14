@@ -46,7 +46,7 @@ docker run cpe-guesser:l.0 -v $(pwd)/config/settings.yaml:/app/config/settings.y
 ```bash
 cd docker
 # Edit docker/settings.yaml as you want
-docker-compose up --build -d
+docker compose up --build -d
 # Please wait for full import
 ```
 
